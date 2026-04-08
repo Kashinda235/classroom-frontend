@@ -8,7 +8,7 @@ import { DEPARTMENT_OPTIONS } from "@/constants";
 import { useTable } from "@refinedev/react-table";
 import { Search } from "lucide-react";
 import { Subject } from "@/types/index.ts";
-import { use, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { Column, ColumnDef } from "@tanstack/react-table";
 import { Badge } from "@/components/ui/badge";
 
